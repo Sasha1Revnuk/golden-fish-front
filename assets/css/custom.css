@@ -1,3 +1,206 @@
 body {
     scroll-behavior: smooth;
 }
+
+/*.discounts_section {*/
+/*    margin-bottom: 15rem;*/
+/*}*/
+
+/*. ancor {*/
+/*    position: absolute;*/
+/*    margin-top: -23rem;*/
+/*}*/
+
+/*.discounts__wrapper {*/
+/*    height: auto;*/
+/*}*/
+
+/*.discounts__wrapper, .contact-us__wrapper {*/
+/*    background: linear-gradient(90deg, #1E3C72 0%, #1E3C72 1%, #2A5298 100%);*/
+/*    height: 29.5rem;*/
+/*    color: #fff;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 17% 7%);*/
+/*    padding: 7.4rem 10% 7.1rem;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.discounts__left, .discounts__right {*/
+/*    flex-basis: 20%;*/
+/*}*/
+
+/*.discount {*/
+/*    position: relative;*/
+/*    font-size: 4rem;*/
+/*    font-weight: 700;*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+/*.discount__description {*/
+/*    font-size: 2.5rem;*/
+/*    font-weight: 700;*/
+/*    text-transform: capitalize;*/
+/*    line-height: 3.4rem;*/
+/*}*/
+
+/*.discount::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: static;*/
+/*    top: 100%;*/
+/*    left: 0;*/
+/*    width: 8rem;*/
+/*    height: 2px;*/
+/*    background: #3C98D6;*/
+/*    margin: 1.5rem auto;*/
+/*}*/
+
+/*.discounts__mid {*/
+/*    flex-basis: 60%;*/
+/*}*/
+
+h2.discounts__title {
+    font-weight: 800;
+    font-size: 6rem;
+    color: #fff;
+}
+
+.discounts__title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*.discounts__right {*/
+/*    width: 31rem;*/
+/*}*/
+
+/*.discounts__left, .discounts__right {*/
+/*    flex-basis: 20%;*/
+/*}*/
+
+/*@media screen and (max-width: 734px) {*/
+/*    .discounts__wrapper > div:not(:last-child) {*/
+/*        margin-bottom: 5rem;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 734px) {*/
+/*    .discounts__wrapper > .discounts__mid {*/
+/*        order: -1;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 734px) {*/
+/*    .discounts__wrapper {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        padding-bottom: 5%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 1400px) {*/
+/*    .discounts__wrapper, .contact-us__wrapper {*/
+/*        padding: 7.4rem 2% 7.1rem;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1470px) {*/
+/*    .discounts_section {*/
+/*        margin-bottom: 5%;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 734px) {*/
+/*    .discounts__wrapper > div:not(:last-child) {*/
+/*        margin-bottom: 5rem;*/
+/*    }*/
+/*}*/
+
+.discounts_section {
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 1470px) {
+    .discounts_section {
+        margin-bottom: 5%;
+    }
+}
+
+.discounts__wrapper, .contact-us__wrapper {
+    background: linear-gradient(90deg, #f69323 0%, #f69323 1%, #f88e0e 100%);
+    height: 29.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 17% 7%);
+    padding: 7.4rem 10% 7.1rem;
+    text-align: center;
+}
+@media screen and (max-width: 1400px) {
+    .discounts__wrapper, .contact-us__wrapper {
+        padding: 7.4rem 2% 7.1rem;
+    }
+}
+
+.discounts__wrapper {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 734px) {
+    .discounts__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    .discounts__wrapper .payments {
+        margin-bottom: unset;
+    }
+    .discounts__wrapper > div:not(:last-child) {
+        margin-bottom: 5rem;
+    }
+    .discounts__wrapper > .discounts__mid {
+        order: -1;
+    }
+}
+
+.discounts__left, .discounts__right {
+    flex-basis: 20%;
+}
+
+.discounts__mid {
+    flex-basis: 60%;
+}
+
+.discounts__title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.discount {
+    position: relative;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.discount::after {
+    content: "";
+    display: block;
+    position: static;
+    top: 100%;
+    left: 0;
+    width: 8rem;
+    height: 2px;
+    background: #fff;
+    margin: 1.5rem auto;
+}
+
+.discount__description {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3.4rem;
+}
+
+.discounts__right {
+    width: 31rem;
+}
